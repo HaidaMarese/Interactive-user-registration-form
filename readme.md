@@ -1,22 +1,23 @@
-# User Registration Form with Validation and localStorage
+# Interactive User Registration Form
 
 ## Overview
-This project is a user registration form built with HTML, CSS, and JavaScript. It features real-time input validation, custom error messages, and persistence of the username using localStorage. The form prevents submission until all inputs are valid, ensuring a smooth and user-friendly experience.
+This project is a simple yet interactive user registration form built with HTML, CSS, and JavaScript. It validates user input in real-time, shows helpful error messages, and stores the username using localStorage. The goal is to provide a smooth and user-friendly registration experience for a web application.
 
 ## Features
-- Real-time validation for username, email, password, and password confirmation  
-- Custom error messages displayed clearly next to each input field  
-- Prevents form submission until all inputs pass validation  
-- Saves the username to localStorage and pre-fills the username field on page load  
-- Uses both HTML5 validation attributes and JavaScript for robust validation  
-- Demonstrates usage of localStorage for storing and retrieving user preferences  
+- Real-time validation for all input fields (Username, Email, Password, Confirm Password)
+- Custom error messages for each field
+- Password confirmation matching
+- Use of HTML5 validation attributes and JavaScript Constraint Validation API
+- Prevents form submission until all fields are valid
+- Stores and retrieves the username from localStorage
+- Responsive styling with clear visual feedback for users
 
 ## Technologies Used
-- HTML5  
-- CSS3  
-- JavaScript (DOM manipulation and event handling)  
+- HTML5
+- CSS3
+- JavaScript (DOM Manipulation, Validation, localStorage)
 
 ## How to Run
 1. Clone the repository:  
    ```bash
-   git clone https://github.com/HaidaMarese/registration-form.git
+   git clone https://github.com/HaidaMarese/Interactive-user-registration-form.git
